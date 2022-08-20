@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    padding-top: 10px;
 }
 
 #skills {
