@@ -1,0 +1,176 @@
+.info {
+    font-size: x-large;
+    color: rgb(242, 80, 26);
+    font-weight: bold;
+}
+
+.intro{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+#skills {
+    padding: 70px;
+}
+
+#Skills {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skl, .skr {
+    height: 400px;
+    width: 400px;    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(108, 117, 125);
+}
+
+.skr {
+    padding: 30px;
+}
+
+.skl{
+    padding: 10px;
+    background-color: aliceblue;
+    margin-right: 50px;
+    background-color: rgb(108, 117, 125);
+
+}
+
+p {
+    font-size: large;
+    color: darkkhaki;
+}
+
+.progress {
+    margin-bottom: 15px;
+}
+
+#Projects {
+    padding-top: 70px;
+}
+
+#projects {
+    padding-top: 10px;
+    
+    background-color: rgb(84 84 56);
+    height: fit-content;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
+    margin: 10px;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+}
+
+#img2 {
+    width:200px;
+    height:200px;
+}
+
+#img3 {
+    width:200px;
+    height:200px;
+}
+
+#img4 {
+    width:200px;
+    height:200px;
+}
+
+#img5{
+    width: 300px;
+    height: 200px;
+}
+
+#img6 {
+    width: 300px;
+    height: 200px
+}
+
+#img7 {
+    width: 200px;
+    height: 200px;
+}
+/* baground-image -> contain, cover, (_% _%) */
+/* by changing window size check location of parallaxed image */
+.parallax1 {
+    border-style: solid;
+    border-color: rgb(146, 164, 161);
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:100% auto;  /* width will take full length height will be adjused without changing image aspect-ratio */
+    
+}
+.parallax2 {
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+
+.parallax {
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:100% auto; 
+}
+
+#hobbies {
+    padding-top: 70px;
+    border-style: solid;
+    margin: 3px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#links {
+    background-color: rgb(74 83 62);
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.pro {
+    width: fit-content;
+    height: fit-content;  
+    padding: 10px; 
+    padding-bottom: 0px; 
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(108, 117, 125);
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

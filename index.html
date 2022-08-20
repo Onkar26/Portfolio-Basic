@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+        <meta charset="utf-8" />
+    </head>
+    <body style="background-size:cover; background-color:darkolivegreen">
+          
+          <nav class="navbar navbar-expand-lg navbar-light bg-secondary" style="position: fixed; width: 100%">
+            <div class="container-fluid" style="background-color:rgb(117, 181, 105)">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span style="font-size: xx-large;">Portfolio</span> <span style="color: darkgreen; font-size: xx-large;">Project</span></a>                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                  </li>
+                  
+                  <!-- <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Skills
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Java</a></li>
+                      <li><a class="dropdown-item" href="#">C++</a></li>
+                      <li><a class="dropdown-item" href="#">Javascript</a></li>
+                    </ul>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#links" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#links">LinkedIn</a></li>
+                        <li><a class="dropdown-item" href="#links">GitHub</a></li>
+                        <li><a class="dropdown-item" href="#links">Instagram</a></li>
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" ><span style="color: #a8d37c">Search</span></button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+          <div style="height: 70px;"></div>
+          <section class="intro">
+            <div style="text-align: center; margin-top: 20px; margin-left: 10px; margin-right: 10px;background-color: rgb(13 151 253 / 25%); height: 500px; padding: 170px; border-style: solid;">
+                <span style="font-size:xx-large; font-family:cursive; color:darkgrey;">Hi, I am <span style="font-family: serif; color: black;font-weight: bolder; border-style: solid; border-radius: 5px; padding: 5px;">Onkar</span></span>
+            </div>
+            
+          </section>
+          
+          <section id="skills">
+                <div >              
+                    <h3 style="margin-top: 10px;font-size: 1cm; font-weight: bold; text-align: center; text-decoration: underline">Skills</h3>
+                </div>
+                <div id="Skills">
+                  <div class="skl">
+                      <img style="height: 100%; width: 100%;" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=826&t=st=1657801332~exp=1657801932~hmac=4a2681cfe5a47bdca6252dcaaab1a9e9412f88368c82f38483dc2611dbdb1dea">
+                  </div>
+                  <div class="skr">
+
+                      <div class="progress">                            
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Java</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">C++</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                      </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 5%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                      </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                      </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                      </div>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">React</div>
+                          <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Android</div>
+                        <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Competitive Programming</div>
+                      <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Rails</div>
+                      <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MySQL</div>
+                      <div class="progress-bar progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+          </section>
+          <section id="projects" >
+            <div style="display:flex; justify-content: space-around">
+                <img src="https://www.freepnglogos.com/uploads/android-logo-png/android-logo-android-studio-appjoy-25.png" id="img1">
+                <img src="https://www.freepnglogos.com/uploads/android-logo-png/android-logo-transparent-png-svg-vector-2.png" id="img2">
+                <img id="img3" src="https://www.teahub.io/photos/full/303-3030786_node-js.jpg">
+                <img id="img4" src="https://khandeshiit.com/assets1/img/java.png">
+            </div>
+               
+            <div style="display:flex; justify-content: space-around">
+              <img id="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU8rz24767mUKGGzANu7xNF49Ac1XeOVz_3w&usqp=CAU">
+              <img id="img6" src="https://www.nicepng.com/png/full/245-2459464_mysql-mogra-db-my-sql-logo-png.png">
+              <img id="img7" src="https://avatars.githubusercontent.com/u/2918581?s=280&v=4">
+            </div>
+            <hr>            
+            
+
+            <div id="Projects">
+              <div>              
+                <h3 style="font-size: 1cm; font-weight: bold; text-align: center; text-decoration: underline">Projects</h3>
+              </div>
+              <div style="display: flex; align-items: center; flex-wrap: wrap; justify-content: space-evenly;">
+                    <div class="pro">
+                      <img id="img8" src="./brickBreaker.png" style="height: 300px; width: 500px;">
+                      <span style="font-size: larger;">Javascript P5.js</span>              
+                    </div>
+                    <div class="pro">
+                      <img src="https://user-images.githubusercontent.com/59679498/185732529-dc6a6367-4ac0-4e7a-8440-b3f5d7e192db.png" style="height: 300px; width: 500px;"/>
+                      <span style="font-size: larger;">Ruby on rails React SQLite</span>
+                    </div>                    
+
+                    <div class="pro">
+                      <img src="./Ludo.jpeg" style="height: 300px; width: 500px;"/>
+                      <span style="font-size: larger;">HTML CSS Javascript</span>
+                    </div>                    
+
+                    <div class="pro">
+                      <img src="./moviedetails.png" style="height: 300px; width: 500px;"/>
+                      <span style="font-size: larger;">React Javascript HTML CSS</span>
+                    </div>                    
+              </div>
+            </div>
+              
+
+
+          </section>
+          <section id="hobbies" style="padding-left: 0.5cm; padding-right: 0.5cm;">
+            <div >              
+              <h3 style="margin-top: 10px;font-size: 1cm; font-weight: bold; text-align: center; text-decoration: underline">Hobbies</h3>
+          </div>
+            <div class="parallax1" style="margin-bottom: 15px;height: 399px;background-image: url('https://media.istockphoto.com/photos/cricket-bat-and-ball-on-cricket-pitch-picture-id1312835994?b=1&k=20&m=1312835994&s=170667a&w=0&h=Gdj_igpTeAoenS310h4UblZ4_xJ0vTmhAuOZ2owO8Hw=')">
+              <div>
+
+              </div>
+            </div>
+
+
+            <div style="margin-bottom: 15px; border-style: solid; border-color: rgb(146, 164, 161);">
+              <div class="parallax" style="height: 99px; background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4fc6b8ae-702c-4f4c-9983-b9126ecca48e/d52hvi1-473ea2dc-7ed6-465a-afe8-a51d553b0a4f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRmYzZiOGFlLTcwMmMtNGY0Yy05OTgzLWI5MTI2ZWNjYTQ4ZVwvZDUyaHZpMS00NzNlYTJkYy03ZWQ2LTQ2NWEtYWZlOC1hNTFkNTUzYjBhNGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.glvNNS-MGgseNTQbzU3GF6MmkOvQee2IpxRff-LwzyU')">
+                  <div>
+
+                  </div>        
+              </div>
+              <div class="parallax" style="height: 99px;background-image: url('https://p4.wallpaperbetter.com/wallpaper/424/286/517/call-of-duty-ghost-call-of-duty-black-ops-wallpaper-preview.jpg')">
+                <div>
+
+                </div>       
+              </div>
+              <div class="parallax" style="height: 99px;background-image: url('https://wallpapercave.com/dwp2x/vSGPOHH.jpg')">
+                <div>
+                  
+                </div>       
+              </div> 
+            </div>
+        
+            <!-- <div >
+              <img id="img8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1FCZ6i5lbbGrPm2Jx6IG5zG1Wkx6tO7z-Q&usqp=CAU"/>
+            
+            
+            </div> -->
+          </section>
+          <section id="links">
+            <div class="column" >
+              <a href="https://github.com/Onkar26/">
+                <img src="./GitHub-Mark-Light-120px-plus.png" style="height: 50px; width: 50px"/>    
+              </a>
+              <!-- <span style="text-align: center;">GitHub</span> -->
+            </div >
+
+            <div class="column">
+              <a href="https://linkedin.com/in/onkar-limkar-0b5305186">
+                <img src="./LI-In-Bug.png" style="height: 50px; width: 50px" />
+              </a>                
+              <!-- <span style="text-align: center;">LinkedIn</span> -->
+            </div>
+
+            <div class="column">
+              <a href="https://instagram.com/onkarlimkar/">
+                <img src="https://cdn.iconscout.com/icon/free/png-128/instagram-1868978-1583142.png"  style="height: 50px; width: 50px"/> 
+              </a>
+              <!-- <span style="text-align: center;">Instagram</span> -->
+            </div>
+          </section>
+          <footer style="background-color: rgb(1, 36, 1); text-align: center;"> <span style="color:beige;margin-left: 100px; font-weight: bold;">contact :</span><span style="color:aquamarine; margin-left: 5px;">Onkar B Limkar | 7719906399 | onkarlimkar@gmail.com </span> </footer>
+    </body>
+    
+</html>
